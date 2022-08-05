@@ -1,0 +1,487 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+body{
+
+	
+}
+ul li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+body {
+
+/*font-family: 'Roboto', sans-serif;*/
+
+}
+
+/*nav bar css start*/
+
+.menu{
+
+	background-color: #ffffff;
+	
+}
+
+.nav-item{
+
+	margin-left: 40px;
+	
+}
+
+.navbar-nav .nav-item .nav-link.active{
+
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #4f638a;
+	border: 1px solid;
+	border-radius: 30px;
+	padding: 1px 12px;
+}
+
+.navbar-nav .nav-item .nav-link{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #4f638a;
+}
+.navbar-nav .nav-item .nav-link:hover{
+
+	border: 1px solid;
+	border-radius: 30px;
+	padding: 1px 12px;
+	color: #4f638a;
+}
+.navbar-brand{
+
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.navbar-nav .nav-item .social-link{
+
+	font-size: 20px;
+}
+.fa-facebook-f{
+
+	border: 1px solid;
+	border-radius: 50px;
+	padding: 6px 10px;
+}
+
+.fa-twitter{
+
+	border: 1px solid;
+	color: #28aae1;
+	border-radius: 50px;
+	padding: 6px 6px;
+}
+
+/*nav bar css end*/
+/*banner patt css start*/
+#banner{
+
+	background: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: 1px solid;
+	color: #e4e6ea; 
+}
+
+.banner_content{
+
+	text-align: center;
+}
+.banner_content h1{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 72px;
+	color: #0149a1;
+	margin-top: 90px;
+	margin-bottom: 5px;
+}
+
+.banner_content p{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	color: #5d6981;
+	margin-bottom: 90px;
+}
+
+.banner_content button{
+
+	border: 1px solid;
+	color: #ff2d55;
+	padding: 10px 55px;
+	background-color: #ff2d55;
+	border-radius: 30px;
+	margin-bottom: 110px;
+}
+
+.banner_content button a{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: white;
+}
+.vector1{
+
+	text-align: left;
+}
+.vector2{
+
+	text-align: left;
+}
+.macbook{
+
+	text-align: center;
+}
+.macbook img{
+
+	margin-top: -435px;
+	position: relative;
+}
+
+/*.macbook button{
+
+	border: 1px solid white;
+	padding: 12px 35px;
+	background-color: white;
+	border-radius: 30px;
+	position: absolute;
+	right: 600px;
+	bottom: -250px;
+
+}*/
+
+.macbook button a{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: #6785bb;
+}
+.fa-caret-right{
+
+	margin-left: 10px;
+}
+.service{
+
+	text-align: center;
+}
+
+.service h3{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	margin-top: 30px;
+	color: #5d6981;
+}
+
+.service p{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 120px;
+	color: #5d6981;
+}
+
+/*banner patt css end*/
+/*creativity patt css start*/
+
+#creativity{
+
+	background: url(../images/creativity_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.creativity_btn{
+
+	text-align: center;
+}
+
+.creativity_btn button{
+
+	border: 1px solid;
+	color: #0149a1;
+	background-color:#0149a1;
+	padding: 10px 55px;
+	border-radius: 30px;
+	margin-top: 350px;
+	margin-bottom: 200px; 
+}
+
+.creativity_btn button a{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: white;
+}
+
+/*creativity patt css end*/
+/*work patt css start*/
+
+#work{
+
+	background-color: #0149a1;
+}
+
+.work_head{
+
+	text-align: center;
+}
+
+.work_head h4{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 72px;
+	color: white;
+	margin-top: 85px;
+	margin-bottom: 10px;
+}
+.work_head h6{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	color: #5483bb;
+	margin-bottom: 100px;
+}
+
+.work_img{
+
+	text-align: center;
+}
+
+.work_content p{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 25px;
+	color: white;
+	text-align: left;
+	margin-bottom: 95px;
+}
+
+.work_btn{
+
+	text-align: center;
+}
+
+.work_btn button{
+
+	border: 1px solid white;
+	background-color:white;
+	padding: 10px 55px;
+	border-radius: 30px;
+	margin-top: 90px;
+	margin-bottom: 120px; 
+}
+
+.work_btn button a{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: #0149a1;
+}
+
+/*work patt css end*/
+
+/*carousel part css start*/
+
+.carousel_img{
+
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 45px;
+}
+.carousel_content{ 
+
+	text-align: center;
+	margin-bottom: 10px;
+ }
+.carousel_content h6{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	font-style: italic; 
+	color: #7c8ca0;
+	margin-bottom: 30px;
+	
+}
+.carousel_content p{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #7c8ca0;
+	margin-bottom: 70px;
+}
+
+.carousel-indicators .active{
+
+	background-color: #7c8ca0;
+	
+}
+
+.carousel-indicators [data-bs-target]{
+
+	height: 15px;
+	width: 15px;
+	border: 1px solid;
+	color: #7c8ca0;
+	border-radius: 50%;	
+	
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    border: 1px solid;
+    color: #7c8ca0;
+}
+/*carousel part css end*
+
+/*team part css start*/
+
+#team{
+
+	background: url(../images/team_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 70px;
+	padding-top: 125px;
+}
+
+.team_head{
+
+	text-align: center;
+}
+.team_head h4{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 72px;
+	color: #0149a1;
+		
+}
+
+.team_head p{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	color: #5d6981;
+	padding-bottom: 90px;	
+}
+.team_img{
+
+	text-align: center;
+}
+
+.team_img h5{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #5d6981;
+	margin-top: 45px;
+	margin-bottom: 25px;
+}
+
+.team_img p{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #5d6981;
+
+}
+
+.team_button{
+
+	text-align: center;
+}
+
+.team_button button{
+
+	border: 1px solid;
+	color: #ff2d55;
+	background-color:#ff2d55;
+	padding: 10px 55px;
+	border-radius: 30px;
+	margin-top: 80px;
+	margin-bottom: 120px; 
+}
+
+.team_button button a{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: white;
+
+}
+
+/*team part css end*/
+/*map part css start*/
+
+.google_map{
+
+	width: 100%;
+}
+/*map part css end*/
+footer{
+	background-color: #0149a1;
+}
+
+.contact{
+
+	text-align: left;
+	margin-top: 80px;
+}
+
+.contact a{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: white;
+	margin-bottom: 25px;
+}
+.footter_btm p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: white;
+	margin-bottom: 100px;
+	margin-top: 125px;
+	text-align: center;
+}
+ 
+/*footer part css end*
+

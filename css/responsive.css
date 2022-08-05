@@ -1,0 +1,551 @@
+/*// X-Small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575px){ 
+
+/*nav part responsive start*/
+
+.nav-item{
+
+	text-align: center;
+	margin-right: 90px;
+	margin-left: 90px;	
+}
+.fa-facebook-f {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*nav part responsive end*/
+/*banner part responsive start*/
+.banner_content h1 {
+  
+    font-size: 30px;
+    margin-top: 50px;
+}
+.banner_content p {
+    
+     font-size: 18px;
+    margin-bottom: 50px;
+}
+.banner_content button{
+
+	padding: 6px 35px;
+	
+	margin-bottom: 50px;
+}
+.vector1, .vector2{
+
+	display: none;
+}
+
+.macbook img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.service p {
+   
+    margin-bottom: 70px;   
+}
+
+
+/*banner part responsive end*/
+
+.creativity_btn button {
+    
+    padding: 6px 35px;
+    
+    margin-top: 125px;
+    margin-bottom: 90px;
+}
+
+/*work part responsive start*/
+
+.work_head h4 {
+    
+    font-size: 40px;
+    
+}
+
+.work_head h6 {
+    
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.work_img img{
+
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+	margin-bottom: 40px;
+    
+}
+.work_content p {
+    
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.work_btn button {
+    
+    padding: 6px 35px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*work part responsive end*/
+
+/*carousel part responsive start*/
+.carousel_img{
+
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.carousel_content h6 {
+    
+    font-size: 12px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.carousel_content p {
+    
+    font-size: 11px;
+    margin-bottom: 60px;
+}
+.carousel-indicators [data-bs-target]{
+
+	height: 10px;
+	width: 10px;	
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 30px;
+    width: 30px;
+    
+}
+
+/*carousel part responsive end*/
+/*team part responsive start*/
+
+#team {
+    
+    margin-top: 50px;
+    padding-top: 15px;
+}
+
+.team_head h4 {
+    
+    font-size: 40px;
+    
+    
+}
+.team_head p {
+    
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.team_button button {
+    
+    padding: 7px 35px;
+    
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+/*team part responsive end*/
+/*footer part responsive start*/
+.contact {
+    text-align: center;
+    margin-top: 50px;
+}
+.contact a {
+    
+    font-size: 14px;    
+}
+
+.footter_btm p {
+    
+    font-size: 14px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+
+/*footer part responsive end*/	
+
+
+	 }
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px){ 
+
+	
+/*nav part responsive start*/
+
+.nav-item{
+
+	text-align: center;
+	margin-right: 200px;
+	margin-left: 200px;	
+}
+.fa-facebook-f {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/*nav part responsive end*/
+/*banner part responsive start*/
+.banner_content h1 {
+  
+    font-size: 50px;
+    margin-top: 70px;
+}
+.banner_content p {
+    
+     font-size: 30px;
+    margin-bottom: 60px;
+}
+.banner_content button{
+
+	padding: 6px 35px;
+	
+	margin-bottom: 50px;
+}
+.vector1, .vector2{
+
+	display: none;
+}
+
+.macbook img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.service p {
+   
+    margin-bottom: 70px;   
+}
+
+
+/*banner part responsive end*/
+
+.creativity_btn button {
+    
+    padding: 6px 35px;
+    
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+/*work part responsive start*/
+
+
+.work_img img{
+
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+	margin-bottom: 40px;
+    
+}
+.work_content p{
+    
+    margin-bottom: 30px;
+}
+
+
+.work_btn button {
+    
+    padding: 6px 35px;
+    border-radius: 30px;
+    
+    margin-bottom: 70px;
+}
+/*work part responsive end*/
+
+/*carousel part responsive start*/
+.carousel_img{
+
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+.carousel_content h6 {
+    
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.carousel_content p {
+    
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+.carousel-indicators [data-bs-target]{
+
+	height: 12px;
+	width: 12px;	
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+    
+}
+
+/*carousel part responsive end*/
+/*footer part responsive start*/
+.contact {
+    text-align: center;
+    margin-top: 50px;
+}
+.contact a {
+    
+    font-size: 14px;    
+}
+
+.footter_btm p {
+    
+    font-size: 13px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+
+/*footer part responsive end*/
+
+ }
+
+ /*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	/*nav part responsive start*/
+
+.nav-item{
+
+	text-align: center;
+	margin-right: 290px;
+	margin-left: 290px;	
+}
+.fa-facebook-f {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*nav part responsive end*/
+/*banner part responsive start*/
+
+
+.service h3 {
+    
+    font-size: 18px;
+   
+}
+
+.service p {
+    
+    font-size: 14px;
+    
+}
+
+/*banner part responsive end*/
+
+/*ereative part responsive start*/
+.creativity_btn button {
+    
+    padding: 10px 55px;
+    
+    margin-top: 170px;
+    margin-bottom: 120px;
+}
+/*ereative part responsive end*/
+
+/*work part responsive start*/
+
+
+.work_img img{
+
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+	margin-bottom: 40px;
+    
+}
+.work_content p{
+    
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+
+
+.work_btn button {
+    
+    padding: 10px 55px;
+    border-radius: 30px;
+    
+    margin-bottom: 70px;
+}
+/*work part responsive end*/
+
+/*carousel part responsive start*/
+.carousel_img{
+
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+.carousel_content h6 {
+    
+    font-size: 17px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.carousel_content p {
+    
+    font-size: 17px;
+    margin-bottom: 60px;
+}
+.carousel-indicators [data-bs-target]{
+
+	height: 14px;
+	width: 14px;	
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+    
+}
+
+/*carousel part responsive end*/
+/*team part responsive start*/
+
+.team_img h5 {
+    
+    font-size: 20px;
+    
+}
+
+.team_img p {
+    
+    font-size: 16px;
+    
+}
+/*team part responsive end*/
+
+	 }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+	/*nav part responsive start*/
+
+.nav-item{
+
+	margin-left: 20px;	
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    
+    font-size: 15px;
+    padding: 1px 7px;
+}
+
+.navbar-nav .nav-item .nav-link{
+
+	font-size: 15px;
+	
+}
+.navbar-nav .nav-item .nav-link:hover{
+
+	
+	padding: 1px 7px;
+	
+}
+
+/*nav part responsive end*/
+/*banner part responsive start*/
+
+
+.service h3 {
+    
+    font-size: 20px;   
+}
+
+.service p {
+    
+    font-size: 16px;   
+}
+
+/*banner part responsive end*/
+
+/*ereative part responsive start*/
+.creativity_btn button {
+    
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+/*ereative part responsive end*/
+/*work part responsive start*/
+
+
+.work_img img{
+
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+	margin-bottom: 40px;
+    
+}
+.work_content p{
+    
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+
+.work_btn button {
+    
+    
+    
+    margin-bottom: 70px;
+}
+/*work part responsive end*/
+/*team part responsive start*/
+
+.team_head p {
+    
+    padding-bottom: 40px;
+}
+.team_img h5 {
+    
+    font-size: 22px;    
+}
+.team_img p {
+    
+    font-size: 16px;   
+}
+
+.team_button button {
+    
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+/*team part responsive end*/
+
+
+	 }
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) { 	 }
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {	 }
+
+
+
